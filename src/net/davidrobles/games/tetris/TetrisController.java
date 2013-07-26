@@ -1,9 +1,9 @@
-package dr.games.tetris;
+package net.davidrobles.games.tetris;
 
-import dr.games.tetris.model.Move;
-import dr.games.tetris.model.TetrisGame;
-import dr.games.tetris.model.GameState;
-import dr.games.tetris.model.TetrisModel;
+import net.davidrobles.games.tetris.model.Move;
+import net.davidrobles.games.tetris.model.TetrisGame;
+import net.davidrobles.games.tetris.model.GameState;
+import net.davidrobles.games.tetris.model.TetrisModel;
 
 import java.awt.event.*;
 

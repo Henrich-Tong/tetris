@@ -1,7 +1,7 @@
-package dr.games.tetris.view;
+package net.davidrobles.games.tetris.view;
 
-import dr.games.tetris.model.*;
-import static dr.games.tetris.model.BlockType.*;
+import net.davidrobles.games.tetris.model.*;
+import static net.davidrobles.games.tetris.model.BlockType.*;
 
 import javax.swing.*;
 import javax.imageio.ImageIO;
@@ -9,7 +9,6 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.net.URL;
 
 public class TetrisView extends JPanel implements TetrisModelObserver {
 
@@ -137,7 +136,7 @@ public class TetrisView extends JPanel implements TetrisModelObserver {
             offsetX = levelFM.stringWidth(level);
             dbg.drawString(level, 75 - (offsetX / 2), 290);
             // Gameover
-//            if (dr.games.tetris.model.isGameOver()) {
+//            if (net.davidrobles.games.tetris.model.isGameOver()) {
 //                // Dark Color
 //                dbg.setColor(new Color(0.0f, 0.0f, 0.0f, 0.8f));
 //                dbg.fill3DRect(0, 0, dbImage.getWidth(null), dbImage.getHeight(null), true);

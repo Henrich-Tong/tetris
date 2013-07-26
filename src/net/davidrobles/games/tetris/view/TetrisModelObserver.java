@@ -1,4 +1,4 @@
-package dr.games.tetris.view;
+package net.davidrobles.games.tetris.view;
 
 public interface TetrisModelObserver {
 

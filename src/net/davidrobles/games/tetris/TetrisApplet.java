@@ -1,8 +1,8 @@
-package dr.games.tetris;
+package net.davidrobles.games.tetris;
 
-import dr.games.tetris.model.TetrisModel;
-import dr.games.tetris.model.TetrisGame;
-import dr.games.tetris.view.TetrisView;
+import net.davidrobles.games.tetris.model.TetrisModel;
+import net.davidrobles.games.tetris.model.TetrisGame;
+import net.davidrobles.games.tetris.view.TetrisView;
 
 import javax.swing.*;
 import java.awt.event.MouseAdapter;
@@ -40,7 +40,7 @@ public class TetrisApplet extends JApplet {
         view.requestFocusInWindow();
         TetrisController controller = new TetrisController(tetrisGame);
         view.addKeyListener(controller);
-//        dr.games.tetris.view.addMouseListener(controller);
+//        net.davidrobles.games.tetris.view.addMouseListener(controller);
         view.addMouseListener(new MouseAdapter() {
             @Override
             public void mousePressed(MouseEvent e) {

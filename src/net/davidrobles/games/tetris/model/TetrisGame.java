@@ -1,4 +1,4 @@
-package dr.games.tetris.model;
+package net.davidrobles.games.tetris.model;
 
 public class TetrisGame implements Runnable {
 
@@ -43,7 +43,7 @@ public class TetrisGame implements Runnable {
 
     public void gameTick() {
         int levelSpeed = 38 - (model.getLevel() * 2);
-//        if (!paused && !dr.games.tetris.model.isGameOver()) {
+//        if (!paused && !net.davidrobles.games.tetris.model.isGameOver()) {
         if (state == GameState.PLAYING) {
             if (!paused) {               
                 if (key != null) {

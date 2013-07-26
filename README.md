@@ -1,4 +1,5 @@
-tetris
+Tetris
 ======
 
-A java implementation of Tetris.
+This is a java implementation of Tetris using Java Swing.
+

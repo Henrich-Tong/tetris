@@ -1,6 +1,6 @@
-package dr.games.tetris.model;
+package net.davidrobles.games.tetris.model;
 
-import dr.games.tetris.view.TetrisModelObserver;
+import net.davidrobles.games.tetris.view.TetrisModelObserver;
 
 public interface TetrisModelObservable {
 

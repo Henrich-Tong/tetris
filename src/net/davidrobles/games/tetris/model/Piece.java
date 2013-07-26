@@ -1,4 +1,4 @@
-package dr.games.tetris.model;
+package net.davidrobles.games.tetris.model;
 
 public class Piece {
 
