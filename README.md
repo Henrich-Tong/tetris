@@ -1,6 +1,6 @@
 Tetris
 ======
 
-This is a Java implementation of Tetris using Java Swing.
+Java implementation of Tetris.
 
 ![alt text](https://github.com/davidrobles/tetris/blob/master/images/screenshot.png?raw=true)
