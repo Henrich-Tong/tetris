@@ -13,7 +13,7 @@
     <target name="jar">
         <mkdir dir="build/jar"/>
         <jar
-            destfile="build/jar/HelloWorld.jar"
+            destfile="build/jar/Tetris.jar"
             basedir="build/classes">
             <manifest>
                 <attribute
@@ -26,7 +26,7 @@
     <target
         name="run">
         <java
-            jar="build/jar/HelloWorld.jar"
+            jar="build/jar/Tetris.jar"
             fork="true"/>
     </target>
 
