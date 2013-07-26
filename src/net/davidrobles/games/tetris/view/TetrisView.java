@@ -9,6 +9,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 public class TetrisView extends JPanel implements TetrisModelObserver {
 
@@ -177,7 +178,8 @@ public class TetrisView extends JPanel implements TetrisModelObserver {
 
     private void loadImages() {
         try {
-            bgImage = ImageIO.read(new File("images/tetris.png"));
+            bgImage = ImageIO.read(getClass().getResource("/tetris.png"));
+
             // Draw blocks background
             Graphics2D gg = (Graphics2D) bgImage.getGraphics();
             for (int x = 0; x < model.getColumns(); x++) {

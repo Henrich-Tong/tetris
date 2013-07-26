@@ -11,23 +11,18 @@
     </target>
 
     <target name="jar">
-        <mkdir dir="build/jar"/>
-        <jar
-            destfile="build/jar/Tetris.jar"
-            basedir="build/classes">
+        <jar destfile="Tetris.jar" basedir="build/classes" update="true">
+            <fileset dir="images">
+                <include name="**/*.png" />
+            </fileset>
             <manifest>
-                <attribute
-                    name="Main-Class"
-                    value="net.davidrobles.games.tetris.RunTetris"/>
+                <attribute name="Main-Class" value="net.davidrobles.games.tetris.RunTetris"/>
             </manifest>
         </jar>
     </target>
 
-    <target
-        name="run">
-        <java
-            jar="build/jar/Tetris.jar"
-            fork="true"/>
+    <target name="run">
+        <java jar="Tetris.jar" fork="true"/>
     </target>
 
 </project>
